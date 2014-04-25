@@ -36,8 +36,8 @@ namespace BarDecode
         public Config(bool productsOnly = false, bool tryHarder = false, bool pureBarcode = false)
         {
             ProductsOnly = productsOnly;
-            TryHarder = TryHarder;
-            pureBarcode = PureBarcode;
+            TryHarder = tryHarder;
+            PureBarcode = pureBarcode;
         }
 
         static readonly Config defaultConfig = new Config();
